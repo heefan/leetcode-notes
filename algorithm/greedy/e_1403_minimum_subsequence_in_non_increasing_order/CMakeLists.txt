@@ -7,7 +7,6 @@ set (CMAKE_CXX_STANDARD 11)
 
 file(GLOB SOURCES "./*.cpp")
 add_executable(${CMAKE_PROJECT_NAME} ${SOURCES})
-
 add_custom_target(run
     COMMAND ${CMAKE_PROJECT_NAME}
     WORKING_DIRECTORY ${CMAKE_PROJECT_DIR}

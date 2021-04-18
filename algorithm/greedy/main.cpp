@@ -11,5 +11,6 @@ class Solution {
 
 
 int main() {
+    Soultion s = Soultion();
 	return 0;
 }
