@@ -12,14 +12,26 @@ void printVector(const T& t) {
 
 class Solution {
 	public:
-		vector<int> minSubsequence(vector<int>& nums) {
+		vector<int> minSubsequence(vector<int>& nums){
 			sort(nums.begin(), nums.end(), greater<int>());
 
 			printVector(nums);
+			
+			vector<int> lArray = { nums[0] };
+			int lSum = nums[0];
+			for (int i = 0, j = 1; i < nums.size(); ++i) {
+			    int rSum = accumulate(nums.begin()+j, nums.end(), 0); 
+				if (lSum > rSum) {
+					break;
+				} else {
+				    lArray.push_back(nums[j]);
+					lSum += nums[j];
+					j++;
+				}
+			}
 
 
-
-			return nums;
+			return lArray;
 
 		}
 };
@@ -27,10 +39,13 @@ class Solution {
 
 int main() {
 	Solution s = Solution();
-	vector<int> nums = {4, 3, 10, 9, 8};
-	vector<int> ret = s.minSubsequence(nums);
-
+	vector<int> test1 = {4, 3, 10, 9, 8};
+	vector<int> ret = s.minSubsequence(test1);
 	printVector(ret);
+
+	vector<int> test2 = {4, 4, 7, 6, 7};
+	vector<int> ret2 = s.minSubsequence(test2);
+	printVector(ret2);
 
 	cout << endl;
 
