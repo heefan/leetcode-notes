@@ -1,0 +1,5 @@
+del CMakeCache.txt
+del CMakeFiles
+del Makefile
+del cmake_install.cmake
+del main
