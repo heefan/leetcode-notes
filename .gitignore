@@ -6,3 +6,4 @@ cmake_install.cmake
 main
 .DS_Store
 build
+cmake-build-debug
