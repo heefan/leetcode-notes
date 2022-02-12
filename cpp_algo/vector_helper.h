@@ -6,6 +6,7 @@
 #define VECTOR_HELPER_H
 
 #include <vector>
+#include <iostream>
 
 using namespace std;
 

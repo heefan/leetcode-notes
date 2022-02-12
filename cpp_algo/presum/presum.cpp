@@ -3,8 +3,8 @@
 //
 
 #define CATCH_CONFIG_MAIN
-#include <Catch2/catch.hpp>
-#include "vector_helper.h"
+#include <catch2/catch.hpp>
+#include "../vector_helper.h"
 
 using namespace std;
 
