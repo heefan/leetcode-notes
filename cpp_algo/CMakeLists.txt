@@ -7,4 +7,4 @@ add_executable(cpp_algo
         /usr/local/include
         vector_helper.h
         presum/presum.cpp
-        dp/53_MaximumSubarray.cpp presum/01_560_subarray_sum_equals_k.cpp)
+        dp/53_MaximumSubarray.cpp presum/560_subarray_sum_equals_k.cpp dfs/00/104.maxumum_depth_of_binary_tree.cpp binarytree_helper.h)
