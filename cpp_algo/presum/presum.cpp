@@ -2,7 +2,6 @@
 // Created by LI Tian on 4/2/22.
 //
 
-#define CATCH_CONFIG_MAIN
 #include <catch2/catch.hpp>
 #include "../vector_helper.h"
 
