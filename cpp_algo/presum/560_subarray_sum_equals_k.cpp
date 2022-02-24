@@ -6,7 +6,7 @@
 
 #define  CATCH_MAIN_CONFIG
 #include <catch2/catch.hpp>
-#include "../vector_helper.h"
+#include "vector_helper.h"
 #include <unordered_map>
 #include <vector>
 

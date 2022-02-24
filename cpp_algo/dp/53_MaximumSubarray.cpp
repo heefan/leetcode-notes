@@ -8,7 +8,7 @@
 ///  A subarray is a contiguous part of an array.
 
 #include <catch2/catch.hpp>
-#include "../vector_helper.h"
+#include "vector_helper.h"
 
 using namespace std;
 
