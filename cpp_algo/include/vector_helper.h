@@ -19,7 +19,17 @@ void printVector(vector<T> & vec) {
     cout << endl;
 }
 
+template<typename T>
+bool isVectorSame(vector<T>& vec1, vector<T>& vec2) {
+    int n = vec1.size();
+    int m = vec2.size();
+    if(n!=m) return false;
 
+    for(int i=0; i<n; i++) {
+        if(vec1[i] != vec2[i])  return false;
+    }
+    return true;
+}
 
 
 
