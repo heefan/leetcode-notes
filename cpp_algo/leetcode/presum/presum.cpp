@@ -2,7 +2,7 @@
 // Created by LI Tian on 4/2/22.
 //
 
-#include <catch2/catch.hpp>
+#include "catch2/catch.hpp"
 #include "vector_helper.h"
 
 using namespace std;

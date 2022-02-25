@@ -7,7 +7,7 @@
 /// which has the largest sum and return its sum.
 ///  A subarray is a contiguous part of an array.
 
-#include <catch2/catch.hpp>
+#include "catch2/catch.hpp"
 #include "vector_helper.h"
 
 using namespace std;

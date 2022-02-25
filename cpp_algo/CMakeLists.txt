@@ -3,15 +3,22 @@ project(cpp_algo)
 
 set(CMAKE_CXX_STANDARD 20)
 
-#include_directories("/usr/local/include")
 include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")
 
 add_executable(cpp_algo
         include/vector_helper.h
         include/binarytree_helper.h
-        presum/presum.cpp
-        dp/53_MaximumSubarray.cpp
-        presum/560_subarray_sum_equals_k.cpp
-        dfs/00/104.maxumum_depth_of_binary_tree.cpp
-        graph/00.graph.cpp
-        cpp_stl/stl_map.cpp quicksort/00_quicksort.cpp)
+        # foundation dir
+        foundation/quicksort/01_linklist_mergesort.cpp
+        foundation/graph/00.graph_bfs.cpp
+        foundation/quicksort/00_array_quicksort.cpp
+        # cpp_stl dir
+        cpp_stl/string_ex.cpp
+        cpp_stl/map_ex.cpp
+        cpp_stl/conversion_ex.cpp
+        # leetcode dir
+        leetcode/presum/presum.cpp
+        leetcode/dp/53_MaximumSubarray.cpp
+        leetcode/presum/560.SubarraySumEqualsK.cpp
+        leetcode/dfs/00/104.maxumum_depth_of_binary_tree.cpp
+        leetcode/string/165.CompareVersionNumbers.cpp)

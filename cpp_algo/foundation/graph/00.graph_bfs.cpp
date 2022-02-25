@@ -16,7 +16,7 @@
 /// https://www.geeksforgeeks.org/iterative-depth-first-traversal/
 
 #define CATCH_CONFIG_MAIN
-#include <catch2/catch.hpp>
+#include "catch2/catch.hpp"
 
 #include <list>
 #include <vector>

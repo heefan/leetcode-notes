@@ -5,8 +5,7 @@
 //Given an array of integers nums and an integer k, return the total number of continuous subarrays whose sum equals to k.
 
 #define  CATCH_MAIN_CONFIG
-#include <catch2/catch.hpp>
-#include "vector_helper.h"
+#include "catch2/catch.hpp"
 #include <unordered_map>
 #include <vector>
 
