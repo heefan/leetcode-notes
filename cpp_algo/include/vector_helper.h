@@ -20,7 +20,7 @@ void printVector(vector<T> & vec) {
 }
 
 template<typename T>
-bool isVectorSame(vector<T>& vec1, vector<T>& vec2) {
+bool isVectorSame(vector<T> vec1, vector<T> vec2) {
     int n = vec1.size();
     int m = vec2.size();
     if(n!=m) return false;
@@ -31,6 +31,17 @@ bool isVectorSame(vector<T>& vec1, vector<T>& vec2) {
     return true;
 }
 
+template<typename T>
+bool is2dVectorSame(vector<vector<T>> a, vector<vector<T>> b) {
+    int n = a.size();
+    int m = b.size();
+    if(n!=m) return false;
+    for (int i = 0; i < n; i++) {
+        if (!isVectorSame(a[i], b[i])) return false;
+    }
+
+    return true;
+}
 
 
 #endif // VECTOR_HELPER_H
