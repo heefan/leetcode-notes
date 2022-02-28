@@ -15,7 +15,7 @@ add_executable(cpp_algo
         # cpp_stl dir
         cpp_stl/string_to_vector_ex.cpp
         cpp_stl/map_ex.cpp
-        cpp_stl/conversion_ex.cpp
+        cpp_stl/int_string.cpp
         # leetcode dir
         leetcode/presum/presum.cpp
         leetcode/dp/53_MaximumSubarray.cpp
