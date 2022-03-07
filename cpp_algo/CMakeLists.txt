@@ -21,4 +21,4 @@ add_executable(cpp_algo
         leetcode/dp/53_MaximumSubarray.cpp
         leetcode/presum/560.SubarraySumEqualsK.cpp
         leetcode/dfs/00/104.maxumum_depth_of_binary_tree.cpp
-        leetcode/string/165.CompareVersionNumbers.cpp cpp_stl/2dvector.cpp)
+        leetcode/string/165.CompareVersionNumbers.cpp cpp_stl/vector_ex.cpp)
