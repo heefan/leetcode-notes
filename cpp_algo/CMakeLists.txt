@@ -12,6 +12,7 @@ add_executable(cpp_algo
         foundation/quicksort/01_linklist_mergesort.cpp
         foundation/graph/00.graph_bfs.cpp
         foundation/quicksort/00_array_quicksort.cpp
+        foundation/kmp/kmp_algo.cpp
         # cpp_stl dir
         cpp_stl/string_to_vector_ex.cpp
         cpp_stl/map_ex.cpp
@@ -21,4 +22,5 @@ add_executable(cpp_algo
         leetcode/dp/53_MaximumSubarray.cpp
         leetcode/presum/560.SubarraySumEqualsK.cpp
         leetcode/dfs/00/104.maxumum_depth_of_binary_tree.cpp
-        leetcode/string/165.CompareVersionNumbers.cpp cpp_stl/vector_ex.cpp)
+        leetcode/string/165.CompareVersionNumbers.cpp cpp_stl/vector_ex.cpp
+        leetcode/2201.CountArtifactsThatCanBeExtracted.cpp)
