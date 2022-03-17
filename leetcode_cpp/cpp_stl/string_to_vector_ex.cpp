@@ -2,6 +2,7 @@
 // Created by LI Tian on 25/2/22.
 //
 
+#define CATCH_CONFIG_MAIN
 #include <regex>  //C++11
 #include <vector>
 #include <iostream>

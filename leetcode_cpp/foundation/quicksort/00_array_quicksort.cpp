@@ -20,6 +20,7 @@
 #include <vector>
 #include "vector_helper.h"
 
+#define CATCH_CONFIG_MAIN
 using namespace std;
 
 // 2,1,3
