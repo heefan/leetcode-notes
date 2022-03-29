@@ -68,7 +68,7 @@ void quickSort(vector<int> &arr, int start, int end) {
     quickSort(arr, p+1, end);
 }
 
-TEST_CASE("foundation: quick sort") {
+TEST_CASE("algorithms: quick sort") {
     SECTION("sort vector with quick sort") {
         vector<int> arr = {2,5,3,4};
 

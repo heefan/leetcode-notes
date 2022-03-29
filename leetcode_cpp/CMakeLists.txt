@@ -22,22 +22,22 @@ find_package(Catch2 REQUIRED)
 add_executable(leetcode_cpp
         include/vector_helper.h
         include/binarytree_helper.h
-        # foundation dir
-        foundation/quicksort/01_linklist_mergesort.cpp
-        foundation/graph/00.graph_bfs.cpp
-        foundation/quicksort/00_array_quicksort.cpp
-        foundation/kmp/kmp_algo.cpp
-        # cpp_stl dir
-        cpp_stl/string_to_vector_ex.cpp
-        cpp_stl/map_ex.cpp
-       cpp_stl/int_string.cpp
+        # algorithms dir
+        algorithms/quicksort/01_linklist_mergesort.cpp
+        algorithms/graph/00.graph_bfs.cpp
+        algorithms/quicksort/00_array_quicksort.cpp
+        algorithms/kmp/kmp_algo.cpp
+        # skills dir
+        skills/string_to_vector_ex.cpp
+        skills/map_ex.cpp
+        skills/int_string.cpp
         # leetcode dir
         leetcode/presum/presum.cpp
         leetcode/dp/53_MaximumSubarray.cpp
         leetcode/presum/560.SubarraySumEqualsK.cpp
         leetcode/dfs/00/104.maxumum_depth_of_binary_tree.cpp
-        leetcode/string/165.CompareVersionNumbers.cpp cpp_stl/vector_ex.cpp
-        leetcode/2201.CountArtifactsThatCanBeExtracted.cpp)
+        leetcode/string/165.CompareVersionNumbers.cpp skills/vector_ex.cpp
+        leetcode/2201.count_artifacts_that_can_be_extracted.cpp skills/odevity_ex.cpp skills/stl_set.cpp leetcode/binary_search/33.search_in_rotated_sorted_array.cpp algorithms/binary-search/binary_search_prototype.cpp)
 
 target_link_libraries(leetcode_cpp Catch2::Catch2)
 include(CTest)
