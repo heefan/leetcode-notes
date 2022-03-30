@@ -45,7 +45,8 @@ set(SOURCE
         ${PROJECT_SOURCE_DIR}/questions/string/165.CompareVersionNumbers.cpp
         ${PROJECT_SOURCE_DIR}/questions/2201.count_artifacts_that_can_be_extracted.cpp
         ${PROJECT_SOURCE_DIR}/questions/binary_search/81.search-in-rotated-sorted-array-ii.cpp
-        ${PROJECT_SOURCE_DIR}/questions/binary_search/33.search_in_rotated_sorted_array.cpp
+        ${PROJECT_SOURCE_DIR}/questions/binary_search/33.search-in-rotated-sorted-array.cpp
+        ${PROJECT_SOURCE_DIR}/questions/binary_search/74.search-a-2d-matrix.cpp
         )
 
 add_executable(${TARGET} ${SOURCE} ${HEADER})
