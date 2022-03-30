@@ -31,7 +31,7 @@ set(SOURCE
         ${PROJECT_SOURCE_DIR}/algorithms/graph/00.graph_bfs.cpp
         ${PROJECT_SOURCE_DIR}/algorithms/quicksort/00_array_quicksort.cpp
         ${PROJECT_SOURCE_DIR}/algorithms/kmp/kmp_algo.cpp
-        ${PROJECT_SOURCE_DIR}/algorithms/binary-search/binary_search_prototype.cpp
+        ${PROJECT_SOURCE_DIR}/algorithms/binary-search/binary-search-prototype.cpp
         ${PROJECT_SOURCE_DIR}/skills/string_to_vector_ex.cpp
         ${PROJECT_SOURCE_DIR}/skills/map_ex.cpp
         ${PROJECT_SOURCE_DIR}/skills/int_string.cpp
@@ -47,7 +47,7 @@ set(SOURCE
         ${PROJECT_SOURCE_DIR}/questions/binary_search/81.search-in-rotated-sorted-array-ii.cpp
         ${PROJECT_SOURCE_DIR}/questions/binary_search/33.search-in-rotated-sorted-array.cpp
         ${PROJECT_SOURCE_DIR}/questions/binary_search/74.search-a-2d-matrix.cpp
-        )
+        algorithms/binary-search/binary-search-02.cpp)
 
 add_executable(${TARGET} ${SOURCE} ${HEADER})
 
