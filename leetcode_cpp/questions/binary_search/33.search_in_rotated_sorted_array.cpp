@@ -39,7 +39,7 @@ public:
     }
 };
 
-TEST_CASE("leetcode 33 search in rotated sorted array ") {
+TEST_CASE("33.search in rotated sorted array ") {
     SECTION("test") {
         vector<int> nums = {5,6,8,0,1,2,3,4};
         Solution33 sln;
