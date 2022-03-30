@@ -32,14 +32,12 @@ set(SOURCE
         ${PROJECT_SOURCE_DIR}/algorithms/quicksort/00_array_quicksort.cpp
         ${PROJECT_SOURCE_DIR}/algorithms/kmp/kmp_algo.cpp
         ${PROJECT_SOURCE_DIR}/algorithms/binary-search/binary_search_prototype.cpp
-        # skills dir
         ${PROJECT_SOURCE_DIR}/skills/string_to_vector_ex.cpp
         ${PROJECT_SOURCE_DIR}/skills/map_ex.cpp
         ${PROJECT_SOURCE_DIR}/skills/int_string.cpp
         ${PROJECT_SOURCE_DIR}/skills/vector_ex.cpp
         ${PROJECT_SOURCE_DIR}/skills/odevity_ex.cpp
         ${PROJECT_SOURCE_DIR}/skills/stl_set.cpp
-        # questions dir
         ${PROJECT_SOURCE_DIR}/questions/presum/presum.cpp
         ${PROJECT_SOURCE_DIR}/questions/dp/53_MaximumSubarray.cpp
         ${PROJECT_SOURCE_DIR}/questions/presum/560.SubarraySumEqualsK.cpp

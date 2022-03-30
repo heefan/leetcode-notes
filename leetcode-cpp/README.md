@@ -1,5 +1,7 @@
 macos: 
 
+most easy way to use catch2
+
 install: 
 brew install catch2
 

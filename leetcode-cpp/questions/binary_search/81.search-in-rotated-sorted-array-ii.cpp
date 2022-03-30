@@ -20,6 +20,11 @@ public:
             int mid = l + (r-l)/2;
             if (target == nums[mid]) return true;
 
+            if(nums[l] == nums[mid] and nums[mid] == nums[r]) {
+                l++;
+                r--;
+            }
+
             if(nums[l] <= nums[mid]) {
                 if(target >= nums[l] and target <= nums[mid]) {
                     r = mid -1;
@@ -45,10 +50,12 @@ public:
 TEST_CASE("81.search in rotated sorted array II") {
     SECTION("binary search") {
         Solution81 sln;
-        vector<int> nums = {2,5,6,0,1,2};
+        vector<int> nums1 = {2,5,6,0,1,2};
+        vector<int> nums2 = {1,0,1,1,1};   // 非常特殊的情况
 
-        REQUIRE(sln.search(nums, 3) == false);
-        REQUIRE(sln.search(nums, 2) == true);
+        REQUIRE(sln.search(nums1, 3) == false);
+        REQUIRE(sln.search(nums1, 2) == true);
+        REQUIRE(sln.search(nums2, 0) == true);
     }
 }
 
