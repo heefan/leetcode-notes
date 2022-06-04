@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58764D67284B002500A9EC71 /* 80.Remove Duplicates from Sorted Array II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58764D66284B002500A9EC71 /* 80.Remove Duplicates from Sorted Array II.swift */; };
+		58764D68284B002800A9EC71 /* 80.Remove Duplicates from Sorted Array II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58764D66284B002500A9EC71 /* 80.Remove Duplicates from Sorted Array II.swift */; };
+		58764D6A284B076A00A9EC71 /* LC28.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58764D69284B076A00A9EC71 /* LC28.swift */; };
+		58764D6C284B473C00A9EC71 /* 33.Search in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58764D6B284B473C00A9EC71 /* 33.Search in Rotated Sorted Array.swift */; };
+		58764D6D284B473C00A9EC71 /* 33.Search in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58764D6B284B473C00A9EC71 /* 33.Search in Rotated Sorted Array.swift */; };
+		58764D70284B547100A9EC71 /* LC33.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58764D6E284B547100A9EC71 /* LC33.swift */; };
 		58BA4B1D284A46E800E74B96 /* 26. Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA4B1C284A46E800E74B96 /* 26. Remove Duplicates from Sorted Array.swift */; };
 		58BA4B2F284A4CDB00E74B96 /* 26. Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA4B1C284A46E800E74B96 /* 26. Remove Duplicates from Sorted Array.swift */; };
-		58BA4B31284A4FE000E74B96 /* 26.sepc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA4B30284A4FE000E74B96 /* 26.sepc.swift */; };
+		58BA4B31284A4FE000E74B96 /* LC26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA4B30284A4FE000E74B96 /* LC26.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +31,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		58764D66284B002500A9EC71 /* 80.Remove Duplicates from Sorted Array II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "80.Remove Duplicates from Sorted Array II.swift"; sourceTree = "<group>"; };
+		58764D69284B076A00A9EC71 /* LC28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC28.swift; sourceTree = "<group>"; };
+		58764D6B284B473C00A9EC71 /* 33.Search in Rotated Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "33.Search in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
+		58764D6E284B547100A9EC71 /* LC33.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC33.swift; sourceTree = "<group>"; };
 		58BA4B19284A46E800E74B96 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BA4B1C284A46E800E74B96 /* 26. Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26. Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
 		58BA4B27284A471700E74B96 /* unittests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unittests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58BA4B30284A4FE000E74B96 /* 26.sepc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 26.sepc.swift; sourceTree = "<group>"; };
+		58BA4B30284A4FE000E74B96 /* LC26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC26.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +59,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58764D65284AFFF800A9EC71 /* linear-array */ = {
+			isa = PBXGroup;
+			children = (
+				58BA4B1C284A46E800E74B96 /* 26. Remove Duplicates from Sorted Array.swift */,
+				58764D66284B002500A9EC71 /* 80.Remove Duplicates from Sorted Array II.swift */,
+				58764D6B284B473C00A9EC71 /* 33.Search in Rotated Sorted Array.swift */,
+			);
+			path = "linear-array";
+			sourceTree = "<group>";
+		};
 		58BA4B10284A46E800E74B96 = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +90,7 @@
 		58BA4B1B284A46E800E74B96 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				58BA4B1C284A46E800E74B96 /* 26. Remove Duplicates from Sorted Array.swift */,
+				58764D65284AFFF800A9EC71 /* linear-array */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -78,7 +98,9 @@
 		58BA4B28284A471700E74B96 /* unittests */ = {
 			isa = PBXGroup;
 			children = (
-				58BA4B30284A4FE000E74B96 /* 26.sepc.swift */,
+				58BA4B30284A4FE000E74B96 /* LC26.swift */,
+				58764D69284B076A00A9EC71 /* LC28.swift */,
+				58764D6E284B547100A9EC71 /* LC33.swift */,
 			);
 			path = unittests;
 			sourceTree = "<group>";
@@ -128,7 +150,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					58BA4B18284A46E800E74B96 = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -172,6 +194,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58764D67284B002500A9EC71 /* 80.Remove Duplicates from Sorted Array II.swift in Sources */,
+				58764D6C284B473C00A9EC71 /* 33.Search in Rotated Sorted Array.swift in Sources */,
 				58BA4B1D284A46E800E74B96 /* 26. Remove Duplicates from Sorted Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,7 +204,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58BA4B31284A4FE000E74B96 /* 26.sepc.swift in Sources */,
+				58764D6A284B076A00A9EC71 /* LC28.swift in Sources */,
+				58764D6D284B473C00A9EC71 /* 33.Search in Rotated Sorted Array.swift in Sources */,
+				58764D68284B002800A9EC71 /* 80.Remove Duplicates from Sorted Array II.swift in Sources */,
+				58BA4B31284A4FE000E74B96 /* LC26.swift in Sources */,
+				58764D70284B547100A9EC71 /* LC33.swift in Sources */,
 				58BA4B2F284A4CDB00E74B96 /* 26. Remove Duplicates from Sorted Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +332,7 @@
 		58BA4B21284A46E800E74B96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LZ5JN39H32;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -315,6 +344,7 @@
 		58BA4B22284A46E800E74B96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LZ5JN39H32;
 				ENABLE_HARDENED_RUNTIME = YES;

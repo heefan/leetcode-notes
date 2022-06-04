@@ -42,4 +42,11 @@ public class Solution26 {
  It does not matter what you leave beyond the returned k (hence they are underscores).
 
  
+ Follow up:
+ 80.Remove Duplicates from Sorted Array II
+ 
+
+ 评论：本题是考察：双指针的思维方式
+ 左边指针保持合法，右边指针进行条件进行遍历交换。 所以TC(n), O(1)
+ 
  */

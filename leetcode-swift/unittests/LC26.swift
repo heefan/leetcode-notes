@@ -8,7 +8,7 @@
 import Foundation
 import XCTest
 
-class LC26Sepc: XCTestCase {
+class LC26: XCTestCase {
     let sln26 = Solution26()
     
     func testCase1() throws {
