@@ -20,6 +20,20 @@
                ReferencedContainer = "container:leetcode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "58BA4B26284A471700E74B96"
+               BuildableName = "unittests.xctest"
+               BlueprintName = "unittests"
+               ReferencedContainer = "container:leetcode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
