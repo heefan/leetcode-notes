@@ -16,7 +16,7 @@
 // 二分查找的方式计算根号2
 
 #include <vector>
-#include <catch2/catch.hpp>
+#include "catch.hpp"
 
 using namespace std;
 

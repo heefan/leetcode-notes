@@ -6,7 +6,7 @@
 #include <regex>  //C++11
 #include <vector>
 #include <iostream>
-#include "catch2/catch.hpp"
+#include "catch.hpp"
 #include "vector_helper.h"
 #include <algorithm>
 

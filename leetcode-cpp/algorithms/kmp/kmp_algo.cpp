@@ -2,7 +2,7 @@
 // Created by litian on 11/3/22.
 //
 
-#include "catch2/catch.hpp"
+#include "catch.hpp"
 #include <string>
 #include <iostream>
 #include <vector>

@@ -3,7 +3,7 @@
 //
 
 
-#include <catch2/catch.hpp>
+#include "catch.hpp"
 #include <vector>
 
 using namespace std;

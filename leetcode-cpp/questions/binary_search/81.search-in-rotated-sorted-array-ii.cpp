@@ -5,7 +5,7 @@
 /*
  * 81. Search in rotated sorted array II
  */
-#include <catch2/catch.hpp>
+#include "catch.hpp"
 
 using namespace  std;
 

@@ -1,8 +1,9 @@
 macos: 
 
-most easy way to use catch2
+catch2 + clion
 
-install: 
-brew install catch2
+https://www.jetbrains.com/help/clion/catch-tests-support.html#test-runner
 
-it will install 2.13.2
+------- 
+Don't use brew to install, because it installs 3+ now. 
+

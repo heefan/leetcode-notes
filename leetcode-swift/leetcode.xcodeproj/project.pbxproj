@@ -25,6 +25,9 @@
 		58BA4B1D284A46E800E74B96 /* 26. Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA4B1C284A46E800E74B96 /* 26. Remove Duplicates from Sorted Array.swift */; };
 		58BA4B2F284A4CDB00E74B96 /* 26. Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA4B1C284A46E800E74B96 /* 26. Remove Duplicates from Sorted Array.swift */; };
 		58BA4B31284A4FE000E74B96 /* LC26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA4B30284A4FE000E74B96 /* LC26.swift */; };
+		58D36FEA2855F46E0039615D /* 268. Missing Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D36FE92855F46E0039615D /* 268. Missing Number.swift */; };
+		58D36FEB2855F46E0039615D /* 268. Missing Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D36FE92855F46E0039615D /* 268. Missing Number.swift */; };
+		58D36FEE2855F4920039615D /* LC268.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D36FEC2855F4920039615D /* LC268.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +57,8 @@
 		58BA4B1C284A46E800E74B96 /* 26. Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26. Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
 		58BA4B27284A471700E74B96 /* unittests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unittests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BA4B30284A4FE000E74B96 /* LC26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC26.swift; sourceTree = "<group>"; };
+		58D36FE92855F46E0039615D /* 268. Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. Missing Number.swift"; sourceTree = "<group>"; };
+		58D36FEC2855F4920039615D /* LC268.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC268.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,7 @@
 				58764D66284B002500A9EC71 /* 80.Remove Duplicates from Sorted Array II.swift */,
 				58764D6B284B473C00A9EC71 /* 33.Search in Rotated Sorted Array.swift */,
 				58AF9B2F284C524400562865 /* 03.Longest Substring Without Repeating Characters.swift */,
+				58D36FE92855F46E0039615D /* 268. Missing Number.swift */,
 			);
 			path = "linear-array";
 			sourceTree = "<group>";
@@ -138,6 +144,7 @@
 				58764D6E284B547100A9EC71 /* LC33.swift */,
 				58AE2DA5284B9A4F00425285 /* LC02.swift */,
 				58AF9B32284C9B4300562865 /* LC03.swift */,
+				58D36FEC2855F4920039615D /* LC268.swift */,
 			);
 			path = unittests;
 			sourceTree = "<group>";
@@ -237,6 +244,7 @@
 				58AE2DA3284B9A1600425285 /* 02.Add Two Numbers.swift in Sources */,
 				58764D6C284B473C00A9EC71 /* 33.Search in Rotated Sorted Array.swift in Sources */,
 				58BA4B1D284A46E800E74B96 /* 26. Remove Duplicates from Sorted Array.swift in Sources */,
+				58D36FEA2855F46E0039615D /* 268. Missing Number.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,11 +253,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				58AE2DAF284B9D1200425285 /* LinkListSpec.swift in Sources */,
+				58D36FEE2855F4920039615D /* LC268.swift in Sources */,
 				58764D6A284B076A00A9EC71 /* LC28.swift in Sources */,
 				58764D6D284B473C00A9EC71 /* 33.Search in Rotated Sorted Array.swift in Sources */,
 				58AE2DAA284B9A9B00425285 /* ListNode.swift in Sources */,
 				58764D68284B002800A9EC71 /* 80.Remove Duplicates from Sorted Array II.swift in Sources */,
 				58BA4B31284A4FE000E74B96 /* LC26.swift in Sources */,
+				58D36FEB2855F46E0039615D /* 268. Missing Number.swift in Sources */,
 				58764D70284B547100A9EC71 /* LC33.swift in Sources */,
 				58AF9B35284C9B4600562865 /* LC03.swift in Sources */,
 				58AE2DA4284B9A1600425285 /* 02.Add Two Numbers.swift in Sources */,

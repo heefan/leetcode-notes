@@ -4,7 +4,7 @@
 
 #include <vector>
 #include <algorithm>
-#include "catch2/catch.hpp"
+#include "catch.hpp"
 #include "vector_helper.h"
 
 using namespace std;

@@ -7,7 +7,7 @@
  * 33. Search in Rotated Sorted Array
  */
 
-#include <catch2/catch.hpp>
+#include "catch.hpp"
 using namespace std;
 
 class Solution33 {

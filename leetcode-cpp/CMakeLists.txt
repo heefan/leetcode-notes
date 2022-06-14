@@ -18,11 +18,11 @@ set(CMAKE_CXX_STANDARD 20)
 #find_package(Catch2 REQUIRED PATHS ${CMAKE_BUILD_RPATH}/cmake-build-debug/_deps/catch2-src/contrib/Catch.cmake)
 
 include_directories("${PROJECT_SOURCE_DIR}/include")
-find_package(Catch2 REQUIRED)
 
 set(HEADER
         ${PROJECT_SOURCE_DIR}/include/vector_helper.h
         ${PROJECT_SOURCE_DIR}/include/binarytree_helper.h
+        ${PROJECT_SOURCE_DIR}/include/Catch.hpp
         )
 set(TARGET leetcodeCpp)
 
@@ -50,7 +50,3 @@ set(SOURCE
         algorithms/binary-search/binary-search-02.cpp questions/binary_search/287.find-the-duplicate-number.cpp questions/palindrome/680.valid-palindrome-ii.cpp)
 
 add_executable(${TARGET} ${SOURCE} ${HEADER})
-target_link_libraries(${TARGET} Catch2::Catch2)
-include(CTest)
-include(Catch)
-catch_discover_tests(${TARGET})

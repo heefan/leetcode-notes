@@ -2,7 +2,7 @@
 // Created by litian on 29/3/22.
 //
 
-#include <catch2/catch.hpp>
+#include "catch.hpp"
 using namespace std;
 
 int binarySearch(vector<int> & nums, int target) {

@@ -3,7 +3,7 @@
 //
 
 
-#include <catch2/catch.hpp>
+#include "catch.hpp"
 /**
  * 掌握：
  * 1. (num&1)==true is odd, false is even.

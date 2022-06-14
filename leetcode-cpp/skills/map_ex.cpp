@@ -7,7 +7,7 @@
 #include <string_view>
 #include <iostream>
 #include <algorithm>
-#include <catch2/catch.hpp>
+#include "catch.hpp"
 #define  CATCH_MAIN_CONFIG
 
 using namespace  std;

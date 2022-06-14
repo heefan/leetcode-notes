@@ -16,7 +16,7 @@
 //
 // 个人体会：我之前把quick sort和merge sort混了。
 
-#include "catch2/catch.hpp"
+#include "catch.hpp"
 #include <vector>
 #include "vector_helper.h"
 

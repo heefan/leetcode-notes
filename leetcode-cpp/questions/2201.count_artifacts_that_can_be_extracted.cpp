@@ -1,7 +1,7 @@
 //
 // Created by litian on 13/3/22.
 //
-#include "catch2/catch.hpp"
+#include "catch.hpp"
 #include <vector>
 using namespace std;
 
