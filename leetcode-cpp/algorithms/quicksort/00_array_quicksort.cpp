@@ -16,12 +16,7 @@
 //
 // 个人体会：我之前把quick sort和merge sort混了。
 
-#include "catch.hpp"
-#include <vector>
-#include "vector_helper.h"
-
-#define CATCH_CONFIG_MAIN
-using namespace std;
+#include "common_inc.h"
 
 // 2,1,3
 // 如果pivot选择为3，那么这就是一个合法的partition，所以partition算法并不会改变这个vector，最终返回的新的pivot也是index=2.
