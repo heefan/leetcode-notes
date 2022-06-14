@@ -1,4 +1,5 @@
-# 求最长子序列问题
+# 求最长子序列问题 
+## Longest Increasing Subsequence (LIS)
 
 ## 思考方向： DP
 子序列是不连续的，所以用双指针和滑动窗口都不合适，因为他们都是解决连续问题的。
@@ -34,7 +35,10 @@ dp[i]进来时并不知道和dp[0..<i]的关系,所以要回头遍历, 一个个
 
 范例： [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 
-## 练习
+## 练习顺序
+[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+* 评价: 必须会, 这是LIS的最基本题型.
+[744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
+[题解](https://leetcode.cn/problems/number-of-longest-increasing-subsequence/solution/gong-shui-san-xie-lis-de-fang-an-shu-wen-obuz/)
+* 评价: 
 
-1. 求最长子数列长度。
-2. 最基本问题

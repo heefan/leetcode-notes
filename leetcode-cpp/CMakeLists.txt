@@ -44,9 +44,9 @@ set(SOURCE
         questions/dfs/00/104.maxumum_depth_of_binary_tree.cpp
         questions/string/165.CompareVersionNumbers.cpp
         questions/2201.count_artifacts_that_can_be_extracted.cpp
-        questions/binary_search/81.search-in-rotated-sorted-array-ii.cpp
-        questions/binary_search/00.basic/33.search-in-rotated-sorted-array.cpp
+        questions/binary_search/two_segment_problems/81.search-in-rotated-sorted-array-ii.cpp
+        questions/binary_search/prototype-problems/33.search-in-rotated-sorted-array.cpp
         questions/binary_search/74.search-a-2d-matrix.cpp
-        algorithms/binary-search/binary-search-02.cpp questions/binary_search/287.find-the-duplicate-number.cpp questions/palindrome/680.valid-palindrome-ii.cpp questions/dp/longest_subsequence_problems/673.number_of_longest_increasing_subsequence.cpp include/common_inc.h questions/dp/longest_subsequence_problems/300.longest_increasing_subsequence.cpp)
+        algorithms/binary-search/binary-search-02.cpp questions/binary_search/left-right-range-problems/287.find-the-duplicate-number.cpp questions/palindrome/680.valid-palindrome-ii.cpp questions/dp/longest_subsequence_problems/673.number_of_longest_increasing_subsequence.cpp include/common_inc.h questions/dp/longest_subsequence_problems/300.longest_increasing_subsequence.cpp questions/LRU/prototype/146.LRU_Cache.cpp)
 
 add_executable(${TARGET} ${SOURCE} ${HEADER})
