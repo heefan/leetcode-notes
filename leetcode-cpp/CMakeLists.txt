@@ -47,6 +47,6 @@ set(SOURCE
         questions/binary_search/two_segment_problems/81.search-in-rotated-sorted-array-ii.cpp
         questions/binary_search/prototype-problems/33.search-in-rotated-sorted-array.cpp
         questions/binary_search/74.search-a-2d-matrix.cpp
-        algorithms/binary-search/binary-search-02.cpp questions/binary_search/left-right-range-problems/287.find-the-duplicate-number.cpp questions/palindrome/680.valid-palindrome-ii.cpp questions/dp/longest_subsequence_problems/673.number_of_longest_increasing_subsequence.cpp include/common_inc.h questions/dp/longest_subsequence_problems/300.longest_increasing_subsequence.cpp questions/LRU/prototype/146.LRU_Cache.cpp questions/graph/1042.flower_plating_with_no_adjacent.cpp)
+        algorithms/binary-search/binary-search-02.cpp questions/binary_search/left-right-range-problems/287.find-the-duplicate-number.cpp questions/palindrome/680.valid-palindrome-ii.cpp questions/dp/longest_subsequence_problems/673.number_of_longest_increasing_subsequence.cpp include/common_inc.h questions/dp/longest_subsequence_problems/300.longest_increasing_subsequence.cpp questions/LRU/prototype/146.LRU_Cache.cpp questions/graph/1042.flower_plating_with_no_adjacent.cpp questions/128.longest_consecutive_sequence.cpp)
 
 add_executable(${TARGET} ${SOURCE} ${HEADER})

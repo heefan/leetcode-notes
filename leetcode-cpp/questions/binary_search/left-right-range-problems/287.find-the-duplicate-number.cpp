@@ -5,6 +5,7 @@
 
 #include "catch.hpp"
 #include <vector>
+#include "common_inc.h"
 
 using namespace std;
 

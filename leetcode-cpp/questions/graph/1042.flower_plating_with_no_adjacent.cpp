@@ -78,4 +78,4 @@ TEST_CASE("1042. Flower Planting With No Adjacent") {
 
 // 当garden为0时, 邻接garden是 [2]
 // 我先要知道当前种花情况,  ans里边放了当前种花的情况,所以需要从里边取.
-// 
+//
