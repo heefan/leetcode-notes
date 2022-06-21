@@ -11,9 +11,18 @@
 using namespace std;
 
 template<typename T>
-void printVector(vector<T> & vec) {
+void printVector(const vector<T> & vec) {
     for(auto & each : vec) {
         cout << each << ",";
+    }
+
+    cout << endl;
+}
+
+template<typename T>
+void print2dVector(const vector<T> & vec) {
+    for(auto & each: vec) {
+        printVector(each);
     }
 
     cout << endl;

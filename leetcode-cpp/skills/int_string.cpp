@@ -18,4 +18,11 @@ TEST_CASE("int to string and string to in") {
         string a = "101";
         REQUIRE(stoi(a) == 101);  //c++11
     }
+
+    SECTION("string to int") {
+        string a = "a";
+        REQUIRE( a < "c");  //c++11
+    }
+
+
 }
