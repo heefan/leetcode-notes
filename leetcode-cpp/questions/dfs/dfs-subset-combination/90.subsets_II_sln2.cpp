@@ -4,7 +4,7 @@
 
 #include "common_inc.h"
 
-class Solution90 {
+class Solution90_sln2 {
 public:
     vector<vector<int>> ans;
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
@@ -43,7 +43,7 @@ public:
 };
 
 TEST_CASE("Solution90. Subset II") {
-    Solution90 sln;
+    Solution90_sln2 sln;
 
     SECTION("case1") {
         vector<int> nums = {1,2,2};
