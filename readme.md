@@ -9,19 +9,19 @@
 ### Learning
 I have been doing the leetcode for 6 months.      
 I tried to do the questions by sequence and by topic.     
-I tried a weekly contest.
+I tried a few weekly contests.
 It seems not efficient to me.
 
-Learning Steps:
+#### Steps:
 1. Target for patterns
-  * understand all the algorithms
-  * remember the code the patterns
-  * Around 150 questions.
-  * Require you to complete any prototype questions within 5 min.
+    * understand all the algorithms
+    * remember the code the patterns
+    * Around 150 questions.
+    * Require you to complete any prototype questions within 5 min.
 2. Practice medium questions to expand your perspective.
-  * In the stage, the purpose is to know more ideas.
+    * In the stage, the purpose is to know more ideas.
 3. Contest
-  * Join the contest to gain more confidence.
+    * Join the contest to gain more confidence.
 
 
 ### Prepare for An Interview
@@ -29,7 +29,7 @@ Learning Steps:
 2. indicate the time complexity and space complexity
 3. Confirm with the interviewer.
 4. Code it.
-  * if prototype question, require to complete within 5 min
-  * if medium+ questions, require to complete within 10 min
-  if hard questions, you should be able to analyze them. 
+    * if prototype question, require to complete within 5 min
+    * if medium+ questions, require to complete within 10 min
+    * if hard questions, you should be able to analyze them. 
 
