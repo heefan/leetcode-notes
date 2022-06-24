@@ -14,14 +14,13 @@ public:
         return ans;
     }
 
-
-    void dfs(int n, int k,  vector<int> & comb, int idx) {
+    void dfs(int n, int k,  vector<int> & comb, int start) {
         if(comb.size() == k) {
             ans.push_back(comb);
             return;
         }
 
-        for(int i=idx; i<=n;  i++) {
+        for(int i=start; i<=n;  i++) {
             comb.push_back(i);
             dfs(n, k, comb, i+1);
 
