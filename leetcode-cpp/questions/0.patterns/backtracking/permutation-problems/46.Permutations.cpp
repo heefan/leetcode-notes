@@ -10,25 +10,25 @@ public:
 
     vector<vector<int>> permute(vector<int> & nums) {
         vector<bool> visit(nums.size(), false);
-        vector<int> path;
-        dfs(nums, visit, path);
+        vector<int> perm;
+        dfs(nums, visit, perm);
 
         return ans;
     }
 
-    void dfs(vector<int> & nums, vector<bool> visit, vector<int> & path) {
-        if (path.size() == nums.size()) {
-            ans.push_back(path);
+    void dfs(vector<int> & nums, vector<bool> visit, vector<int> & perm) {
+        if (perm.size() == nums.size()) {
+            ans.push_back(perm);
             return;
         }
 
         for(int i=0; i<visit.size(); i++) {
             if (!visit[i]) {
-                path.push_back(nums[i]);
+                perm.push_back(nums[i]);
                 visit[i] = true;
-                dfs(nums, visit, path);
+                dfs(nums, visit, perm);
 
-                path.pop_back();
+                perm.pop_back();
                 visit[i] = false;
             }
         }

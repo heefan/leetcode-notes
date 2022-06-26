@@ -1,0 +1,4 @@
+rootProject.name = 'leetcode-java'
+include 'main'
+include 'test'
+
