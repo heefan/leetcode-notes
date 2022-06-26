@@ -22,17 +22,21 @@ public:
             return;
         }
 
+        int prev = -1;
+
         for (int i=0; i<visit.size(); i++) {
             if (!visit[i]) {
-                if(i>0 and nums[i] == nums[i-1] and !visit[i-1] )  {
-                    continue;
-                }
+                if (prev == nums[i]) continue;
+//                if(i>0 and nums[i] == nums[i-1] and !visit[i-1] )  {
+//                    continue;
+//                }
 
                 path.push_back(nums[i]);
                 visit[i] = true;
                 dfs(nums, path, visit);
                 path.pop_back();
                 visit[i] = false;
+                prev = nums[i];
             }
         }
     }
