@@ -23,7 +23,6 @@ private:
             path.push_back(nums[i]);
             printVector(path);
             backtracking(nums, path, depth+1);
-//            path.pop_back();
         }
     }
 };
