@@ -12,17 +12,16 @@
    method 1: hashset
    put [1-n] to set   O(N)
    iterate the array, and remove the from set if exist.    O(N)
-   the rest of the elements are the missing nubmers.
+   the rest of the elements are the missing numbers
    TC: O(n),
    SC: O(n)
-
 
    Follow up: how to optimise SC to O(1)
    think about in place swap
    put the elements into the right index.
    iterate the array,  if nums[i] != i+1, meaning i+1 is the missing number.
 
-   exmpale,
+   example,
    [4,3,2,7,8,2,3,1]
     1,2,3,4,2,3,7,8
     0,1,2,3,4,5,6,7

@@ -9,9 +9,22 @@ public:
 
     /*
      dry run:
+     Bit manipulation:
+     num ^ num = 0
+     num ^ 0 = num
+     numA ^ numsB ^ numsA =  numA ^ numsA ^ numB = numB
+
+     let single = 0
+     iterate the array element, and xor all the element, and the result is the single
+        and  single = single ^ nums[i]
 
      */
     int singleNumber(vector<int>& nums) {
+        int single = 0;
+        for (int i=0; i<nums.size(); i++) {
+            single = single ^ nums[i];
+        }
+        return single;
     }
 };
 
