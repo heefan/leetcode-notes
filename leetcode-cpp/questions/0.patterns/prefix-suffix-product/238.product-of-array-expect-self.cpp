@@ -29,7 +29,7 @@ private:
     vector<int> prefixProduct(const vector<int>& nums) {
         vector<int> prefix(nums.size() , 1);
         int product = 1;
-        prefix[0] = nums[0];
+        prefix[0] = 1;
 
         for(int i=1; i<prefix.size(); i++) {
             product = product * nums[i-1];
