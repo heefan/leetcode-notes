@@ -13,7 +13,7 @@ public:
 
     /*
     dry run:
-            in place swap to sort the array (TC:(n), SC:O(1))
+    in place swap to sort the array (TC:(n), SC:O(1))
     The duplicate number can be found in the swap.
 
     0,1,2,3,4
