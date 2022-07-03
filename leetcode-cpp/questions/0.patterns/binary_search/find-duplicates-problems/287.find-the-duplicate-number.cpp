@@ -2,9 +2,6 @@
 // Created by litian on 31/3/22.
 //
 
-
-#include "catch.hpp"
-#include <vector>
 #include "common_inc.h"
 
 using namespace std;
