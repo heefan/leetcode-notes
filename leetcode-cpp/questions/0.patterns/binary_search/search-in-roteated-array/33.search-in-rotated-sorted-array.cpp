@@ -2,31 +2,42 @@
 // Created by litian on 29/3/22.
 //
 
-#include "catch.hpp"
-using namespace std;
+#include "common_inc.h"
 
+/*
+ * dry run:
+ *
+ *  what's the condition that I can confirm?
+ *
+ *  nums[l] < nums[m] < nums[r]   (target)
+ *
+ *  4,5,6,[0],1,2,3,  nums[l] > nums[m]
+ *  nums[l]  < target  =>  left
+ *  nums[
+ *
+ *
+ */
 class Solution33 {
 public:
     int search(vector<int>& nums, int target) {
-        int n = nums.size();
         int l = 0;
-        int r = n-1;
+        int r = nums.size() -1;
 
         while(l<=r) {
             int m = l + (r-l)/2;
             if(nums[m] == target) return m;
 
-            if(nums[l] <= nums[m]) {
-                if(target >= nums[l] and target <= nums[m]) {
+            if(nums[0] <= nums[m]) { // [0,m] is sorted
+                if(nums[0] <= target and target < nums[m]) {  // 0 <= target < m
                     r = m-1;
                 } else {
                     l = m+1;
                 }
-            } else {
-                if(target >= nums[m] and target <= nums[r]) {
-                    l =  m+1;
+            } else {   // (m ~ end) is sorted
+                if(nums[m] < target and target <= nums[r]) {
+                    l =  m + 1;
                 } else {
-                    r = m-1;
+                    r = m - 1;
                 }
             }
         }
@@ -35,12 +46,25 @@ public:
 };
 
 TEST_CASE("33.search in rotated sorted array ") {
+    Solution33 sln;
     SECTION("case1") {
         vector<int> nums = {5,6,8,0,1,2,3,4};
-        Solution33 sln;
-
         REQUIRE(sln.search(nums, 0) == 3);
-        REQUIRE(sln.search(nums, 10) == -1);
+    }
+
+    SECTION("case2") {
+        vector<int> nums = {1};
+        REQUIRE(sln.search(nums, 1) == 0);
+    }
+
+    SECTION("case3") {
+        vector<int> nums = {1};
+        REQUIRE(sln.search(nums, 0) == -1);
+    }
+
+    SECTION("case4") {
+        vector<int> nums = {3,1};
+        REQUIRE(sln.search(nums, 1) == 1);
     }
 }
 
