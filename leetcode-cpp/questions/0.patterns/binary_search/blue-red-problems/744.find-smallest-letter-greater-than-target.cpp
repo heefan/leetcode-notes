@@ -6,7 +6,6 @@
 
 class Solution744 {
 public:
-
     /*
       dry run:  blue-red solution
               ["c","f","j"]  > "a"

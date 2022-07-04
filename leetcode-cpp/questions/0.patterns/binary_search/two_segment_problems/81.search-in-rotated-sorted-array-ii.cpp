@@ -2,9 +2,6 @@
 // Created by siadev on 30/3/22.
 //
 
-/*
- * 81. Search in rotated sorted array II
- */
 #include "catch.hpp"
 
 using namespace  std;
@@ -51,7 +48,7 @@ TEST_CASE("81.search in rotated sorted array II") {
     SECTION("binary search") {
         Solution81 sln;
         vector<int> nums1 = {2,5,6,0,1,2};
-        vector<int> nums2 = {1,0,1,1,1};   // 非常特殊的情况
+        vector<int> nums2 = {1,0,1,1,1};
 
         REQUIRE(sln.search(nums1, 3) == false);
         REQUIRE(sln.search(nums1, 2) == true);

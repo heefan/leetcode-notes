@@ -7,7 +7,7 @@
 // https://www.youtube.com/watch?v=JuDAqNyTG4g (Chinese)
 //
 
-class BinarySearchPrototype {
+class BinarySearchBuleRed {
 public:
     // index of first number, nums[i] >= 5
     // [1,2,3,5,5,5,8,9]
@@ -87,7 +87,7 @@ public:
 };
 
 TEST_CASE("Binary Search Prototype") {
-    BinarySearchPrototype sln;
+    BinarySearchBuleRed sln;
 
     SECTION("case1: index of the first number, where nums[i] >= 5") {
         vector<int> nums = {1,2,3,5,5,5,8,9};

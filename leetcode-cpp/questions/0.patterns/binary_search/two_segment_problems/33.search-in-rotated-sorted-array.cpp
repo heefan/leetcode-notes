@@ -2,11 +2,6 @@
 // Created by litian on 29/3/22.
 //
 
-/*
- * https://leetcode.com/problems/search-in-rotated-sorted-array/
- * 33. Search in Rotated Sorted Array
- */
-
 #include "catch.hpp"
 using namespace std;
 
@@ -22,16 +17,16 @@ public:
             if(nums[m] == target) return m;
 
             if(nums[l] <= nums[m]) {
-                if(target >= nums[l] and target <= nums[m]) {  // 理想情况    nums[l] < nums[target] < nums[m]
+                if(target >= nums[l] and target <= nums[m]) {
                     r = m-1;
                 } else {
                     l = m+1;
                 }
-            } else {  // l -> mid  先升后降，  mid->r 升序
-                if(target >= nums[m] and target <= nums[r]) {  // 理想情况   nums[m] < nums[target] < nums[r]
+            } else {
+                if(target >= nums[m] and target <= nums[r]) {
                     l =  m+1;
                 } else {
-                    r = m-1;   // 不理想情况下，至少我们知道 m-r一定是没有的。
+                    r = m-1;
                 }
             }
         }
@@ -40,7 +35,7 @@ public:
 };
 
 TEST_CASE("33.search in rotated sorted array ") {
-    SECTION("test") {
+    SECTION("case1") {
         vector<int> nums = {5,6,8,0,1,2,3,4};
         Solution33 sln;
 
