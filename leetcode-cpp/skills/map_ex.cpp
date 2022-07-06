@@ -58,7 +58,7 @@ TEST_CASE( "cpp20 usage") {
 ///  搜索的时间复杂度：O(logN) => 相比unordered_map O(1)
 ///  插入的时间复杂度：O(logN)
 
-/// Discussion: https://stackoverflow.com/questions/21740893/what-is-the-time-complexity-of-stdmap
+/// Discussion: https://stackoverflow.com/leetcode/21740893/what-is-the-time-complexity-of-stdmap
 
 ///                   | map                | unordered_map
 ///  ---------------------------------------------------------
