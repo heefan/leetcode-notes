@@ -1,3 +1,5 @@
+package backtrack;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,6 +25,7 @@ public class Solution46 {
                 permutation.add(nums[i]);
                 visit[i] = true;
                 dfs(nums, permutation, visit);
+                permutation.remove(permutation.get(permutation.size() -1));
                 visit[i] = false;
             }
         }
