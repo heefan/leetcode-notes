@@ -50,7 +50,7 @@ public:
 };
 
 
-TEST_CASE("442. find all duplicates in an array") {
+TEST_CASE("442. find all duplicates in an array: in place hash prototype") {
     Solution442Prototype sln;
 
     SECTION("case1") {
