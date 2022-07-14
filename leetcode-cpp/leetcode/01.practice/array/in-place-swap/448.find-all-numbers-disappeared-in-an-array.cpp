@@ -27,8 +27,8 @@
     0,1,2,3,4,5,6,7
             - -
   */
-class Solution448 {
-
+class Solution442 {
+public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
         int n = nums.size();
         vector<int> ans = {};
@@ -55,8 +55,14 @@ class Solution448 {
 };
 
 TEST_CASE("448. Find All Numbers Disappeared in an Array") {
-    SECTION("case1") {
+    Solution442 sln;
 
+    SECTION("case1") {
+        vector<int> nums = {4,3,2,7,8,2,3,1};
+        vector<int> expect = {2,3};
+        vector<int> ans = sln.findDisappearedNumbers(nums);
+
+        REQUIRE(isVectorSame(ans, expect) == true);
 
     }
 
