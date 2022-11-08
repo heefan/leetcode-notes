@@ -24,8 +24,9 @@ It seems not efficient to me.
     * Join the contest to gain more confidence.
 
 
-### Prepare for An Interview
-1. dry run your solution, and point out the key points
+### Leetcode Coding Process
+1. Read the question and constraints
+1. Dry run to find out the solutiuon. 
 2. indicate the time complexity and space complexity
 3. Confirm with the interviewer.
 4. Code it.
@@ -33,3 +34,11 @@ It seems not efficient to me.
     * if medium+ questions, require to complete within 10 min
     * if hard questions, you should be able to analyze them. 
 
+
+### Sprint1
+    totoal 75 questions for 8 weeks. 
+    `python3`
+
+1. [lc1.two sum](https://leetcode.com/problems/two-sum/)
+
+    
