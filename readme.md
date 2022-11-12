@@ -1,5 +1,9 @@
 # My Leetcode Learning Notes
 
+## Tips: 
+After writing code in cpp, swift, java and python, I prefer to use python to do the leetcode question. 
+
+
 ### 4 Levels
 1. Fix most easy and few medium questions within 30 min or more.  (beginner)
 2. Fix most easy/medium questions within 10 min or more. (medium)

@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.19)
-project(1876_substring_of_size_3_with_distince_characters)
-
-set(CMAKE_CXX_STANDARD 14)
-
-add_executable(1876_substring_of_size_3_with_distince_characters main.cpp)
