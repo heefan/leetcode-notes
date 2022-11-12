@@ -1,7 +1,5 @@
 from typing import List
-
-
-class Solution:
+class Solution01:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         d = {}
         for i, v in enumerate(nums):
@@ -13,21 +11,21 @@ class Solution:
 
 
 def test_1():
-    sln = Solution()
+    sln = Solution01()
     expect = [0,1]
     ans = sln.twoSum([2, 7, 11, 15], 9)
     assert(ans == expect)
 
 
 def test_2():
-    sln = Solution()
+    sln = Solution01()
     expect = [1, 2]
     ans = sln.twoSum([3, 2, 4], 6)
     assert(ans == expect)
 
 
 def test_3():
-    sln = Solution()
+    sln = Solution01()
     expect = [0, 1]
     ans = sln.twoSum([3, 3], 6)
     assert (ans == expect)
